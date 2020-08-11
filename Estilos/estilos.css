@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  margin: 20px; }
+
+body {
+  background-color: white; }
+
+.div__redes {
+  margin: 5px; }
+  .div__redes ul {
+    text-align: right;
+    margin: 0; }
+    .div__redes ul li {
+      display: inline-block; }
+      .div__redes ul li a {
+        text-decoration: none;
+        padding: 5px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding: 30px;
+  font-family: abril-display,serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 100px; }
+
+.navbar {
+  background-color: white; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FF3300; }
+
+.imagenesPortfolio {
+  grid-area: imagenesPortfolio;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.imagenesPortfolio img {
+  height: 500px;
+  width: auto;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.imagenesPortfolio img:hover {
+  transform: scale(1.5); }
+
+.aside img {
+  height: 200px;
+  width: auto;
+  border: solid 2px black; }
+
+.piePagina {
+  background-color: black;
+  color: white;
+  margin-top: 20px; }
+
+.piePagina li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 5px;
+  font-family: josefin-sans,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 15px; }
+
+h1 {
+  font-family: josefin-sans,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.parrafoBio {
+  font-family: josefin-sans,sans-serif;
+  font-style: normal;
+  font-size: 15px; }
+
+.Contacto {
+  font-family: josefin-sans,sans-serif;
+  font-style: normal;
+  font-size: 15px; }
